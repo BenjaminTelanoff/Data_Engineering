@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run SQL examples",
+      "type": "shell",
+      "command": "powershell.exe -ExecutionPolicy Bypass -File scripts\\run_examples.ps1",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Run head.sql",
+      "type": "shell",
+      "command": "powershell.exe -NoProfile -Command \"python .\\scripts\\run_sql_file.py .\\examples\\head.sql\"",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

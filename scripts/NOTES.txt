@@ -1,0 +1,3 @@
+Notes for the user:
+- Install sqlite3 for Windows to run the PowerShell script.
+- Use mkdocs to preview the markdown book.

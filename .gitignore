@@ -1,0 +1,5 @@
+# Ignore database files and temporary folders
+*.db
+.vscode/.history
+node_modules/
+.pytest_cache/
