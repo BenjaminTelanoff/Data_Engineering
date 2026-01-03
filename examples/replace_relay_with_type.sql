@@ -13,3 +13,4 @@ WHERE Results IS NOT NULL;
 ALTER TABLE swimming DROP COLUMN Relay;
 
 COMMIT;
+-- //python .\scripts\run_sql_file.py .\examples\replace_relay_with_type.sql
