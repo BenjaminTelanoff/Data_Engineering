@@ -1,3 +1,4 @@
+-- Replaced relay column with type column in swimming table so it's more understandable to humans
 BEGIN;
 
 ALTER TABLE swimming ADD COLUMN Type TEXT;

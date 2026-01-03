@@ -1,3 +1,4 @@
+-- Replaced rank with medal column in swimming table so it's more understandable to humans
 BEGIN;
 
 ALTER TABLE swimming ADD COLUMN Medal TEXT;
