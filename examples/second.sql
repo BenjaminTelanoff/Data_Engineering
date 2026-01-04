@@ -1,5 +1,8 @@
-SELECT *
-FROM swimming
-WHERE ATHLETE = ''
+SELECT * FROM swimming
+WHERE YEAR = 1920
+AND DISTANCE = '100m'
+AND STROKE = 'Freestyle'
+AND GENDER = 'Women'
+LIMIT 10;
 
 -- --- IGNORE ---
